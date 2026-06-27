@@ -3,12 +3,12 @@ import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
 function AppRoutes(){
     return (
-        <div ClassName = "appLayout">
+        <div ClassName = "app-layout">
             <Navbar/>
-        <div ClassName = "MainLayer">
+        <div ClassName = "main-container">
             <Sidebar/>
-        <main ClassName = "Page-content">
-            <Outlets/>
+        <main ClassName = "page-content">
+            <Outlet/>
         </main>
         </div>
         </div>

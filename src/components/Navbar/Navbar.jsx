@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 function Navbar(){
     return(
-        <header className = "Navbar">
+        <header className = "navbar">
             <div className = "navbar-left">
                 <h2 className = "logo">
                     AI INCIDENT COMMANDER
@@ -11,15 +11,15 @@ function Navbar(){
             <div className = "navbar-center">
                 <Input
                     type = "text"
-                    paceholder = "search"
-                    className = "Search inputs"
+                    paceholder = "Search incidents.."
+                    className = "search-input"
                     />
             </div>
             <div className = "navbar-right">
-                <botton className = "icon">
+                <botton className = "icon-button">
                     🔔
                 </botton>
-                <button className = "icon">
+                <button className = "icon-button">
                     ⚙️
                 </button>
                 <div className = "profile">
