@@ -1,0 +1,41 @@
+.statuscard-cointainer{
+    display : grid;
+    grid-template-columns : repeat(auto-fit,minmax(220px,ifr));
+    gap : 20px;
+    margin-top : 25px;
+}
+
+.status-card{
+    background : #ffffff;
+    border-radius : 15px;
+    padding : 22px;
+    box-shadow : 0 5px 18px rgba(0,0,0,0.08);
+    transition : repeat 0.3s ease;
+    cursor : pointer;
+    border-left : 5px solid #2563eb;
+}
+
+.status-card:hover{
+    transform : translateY(-6px);
+    box-shadow : 0 12px 28px rgba(37,99,235,0.18);
+}
+
+.status-card h3{
+    margin-bottom : 18px;
+    color : #1f2937;
+    font-size : 18px;
+    font-weight : 500;
+}
+
+.statuscard p{
+    margin-top : 10px;
+    font-size : 18px;
+    font-weight : 200;
+    color : #16a34a;
+}
+
+@media(max-width:768px){
+    .status-container{
+        grid-template-columns:1fr;
+    }
+}

@@ -1,0 +1,28 @@
+.chart-container{
+    background : #1f2937;
+    border-radius : 16px;
+    padding : 25px;
+    margin-top : 30px;
+    box-shadow : 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.chart-container canvas{
+    width : 100% !important;
+    height : 420px !important;
+}
+
+.chart-container:hover{
+    transform : translateY(-5px);
+    transition : 0.3s ease;
+    box-shadow : 0 15px 35px rgba(0,0,0,0.35);
+}
+
+@media(max-width:768px){
+    .chart-container{
+        padding : 18px;
+    }
+
+    .chart-container canvas{
+        height : 300px !important;
+    }
+}

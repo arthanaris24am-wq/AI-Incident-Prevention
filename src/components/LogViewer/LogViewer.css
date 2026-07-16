@@ -1,0 +1,82 @@
+.logviewer-container{
+    display : flex;
+    flex-direction : column;
+    margin-top : 35px;
+    gap : 10px;
+}
+
+.logviewer-title{
+    font-size : 20px;
+    font-weight : 600;
+    color : #ffffff;
+}
+
+.logviewer-card{
+    background : #1f2937;
+    border-radius : 14px;
+    padding : 18px 20px;
+    display : flex;
+    flex-direction : column;
+    gap : 12px;
+    transition : all 0.3s ease;
+    cursor : pointer;
+    box-shadow : 0 5px 16px rgba(0,0,0,0.25);
+}
+
+.log-card:hover{
+    transform : translatey(-5px);
+    box-shadow : 0 15px 35px rgba(0,0,0,0.35);
+}
+
+.log-header{
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+
+}
+
+.log-level{
+    font-size : 10px;
+    font-weight : bold;
+    letter-spacing : 1px;
+}
+
+.log-time{
+    font-size : 10px;
+    font-weight : bold;
+    letter-spacing : 1px;
+}
+
+.log-message{
+    font-size : 10px;
+    font-weight : bold;
+    letter-spacing : 1px;
+}
+
+.info{
+    border-left : 6px solid #22c55e;
+}
+.warning{
+    border-left : 6px solid #eab308;;
+}
+.error{
+    border-left : 6px solid red;
+}
+.debug{
+    border-left : 6px solid #3b82f6;
+}
+@media(max-width : 768px){
+    .logcard{
+        padding : 15px;
+    }
+
+    .logviewer-title{
+        font-size : 24px;
+    }
+
+    .log-header{
+        display : flex;
+        flex-direction : column;
+        gap : 6px;
+    }
+}

@@ -1,0 +1,42 @@
+.dashboard{
+    padding : 30px;
+    background : #f8fafc;
+    min-height : 100vh;
+
+}
+
+.dashboard h1{
+    font-size : 32px;
+    font-weight : 600;
+    color : #111827;
+    margin-bottom : 10px;
+
+}
+
+.dashboard p{
+    font-size : 18px;
+    color : #6b7280;
+    margin-bottom : 30px;
+}
+
+.status-section{
+    margin-bottom : 30px;
+}
+
+.dashboard-middle{
+    display : grid;
+    grid-template-columns : 2fr 1fr;
+    gap : 25px;
+    margin-bottom : 30px;
+}
+
+.incident-section{
+    margin-top : 20px;
+}
+
+.section-title{
+    font-size : 12px;
+    font-weight : 600;
+    color : #1f2937;
+    margin-bottom : 18px;
+}

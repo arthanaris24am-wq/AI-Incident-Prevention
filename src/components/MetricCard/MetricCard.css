@@ -1,0 +1,36 @@
+.metric-container{
+    display : grid;
+    grid-template-columns : repeat(auto-fit,minmax(220px,1fr));
+    gap : 20px;
+}
+
+.metric-card{
+    background : white;
+    padding : 20px;
+    border-radius : 10px;
+    box-shadow : 0 5px 15px rgba(0,0,0,.08);
+    transition : 0.3s;
+    border-top : 5px solid #2563eb;
+}
+
+.metric-card:hover{
+    transform : translateY(-6px);
+    box-shadow : 0 12px 25px rgba(37,99,235,.18);
+}
+
+.metric-card h3{
+    color : #6b7280;
+    font-size : 18px;
+    margin-bottom : 15px;
+}
+
+.metric-card h1{
+    color : #111827;
+    font-size : 34px;
+    margin-bottom : 12px;
+}
+
+.metric-card p{
+    color : #16a34a;
+    font-weight : 600;
+}

@@ -1,0 +1,43 @@
+.explain-card{
+    background : #1b1b2f;
+    border-radius : 15px;
+    padding : 25px;
+    margin-top : 25px;
+    box-shadow : 0 10px 25px rgba(0,0,0.3)
+}
+
+.explain-card h2{
+    color : white;
+    margin-bottom : 20px;
+}
+
+.reason-list{
+    display : flex;
+    flex-direction : column;
+    gap : 15px;
+}
+
+.reason-item{
+    display : flex;
+    align-items : center;
+    gap : 10px;
+    background : #24243e;
+    padding : 15px;
+    border-radius : 10px;
+}
+
+.step-number{
+    width : 40px;
+    height : 40px;
+    border-radius : 50%;
+    background : #00c896;
+    color :white;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-weight : bold;
+}
+
+.reason-item p{
+    color : #d7d7d7;
+}
